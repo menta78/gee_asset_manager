@@ -19,6 +19,7 @@ __copyright__ = """
 """
 __license__ = "Apache 2.0"
 
+#import pdb; pdb.set_trace()
 import argparse
 import logging
 import os
@@ -85,7 +86,7 @@ def _comma_separated_strings(string):
 
 
 def main(args=None):
-    setup_logging()
+   #setup_logging()
     parser = argparse.ArgumentParser(description='Google Earth Engine Batch Asset Manager')
     parser.add_argument('-s', '--service-account', help='Google Earth Engine service account.', required=False)
     parser.add_argument('-k', '--private-key', help='Google Earth Engine private key file.', required=False)
